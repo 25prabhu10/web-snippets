@@ -1,0 +1,23 @@
+{
+  "name": "web-snippets",
+  "version": "0.0.1",
+  "description": "Collection of HTML, CSS, and JavaScript code samples",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/25prabhu10/web-snippets.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "snippets",
+    "code",
+    "example"
+  ],
+  "author": "Prabhu K H",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/25prabhu10/web-snippets/issues"
+  },
+  "homepage": "https://github.com/25prabhu10/web-snippets#readme"
+}
