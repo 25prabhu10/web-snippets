@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Clocks and Timers</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>CSS Countdown</h1>
+        <h2>New Year 2023</h2>
+
+        <ol class="countdown" data-time="2024-01-01">
+          <li data-label="day"></li>
+          <li data-label="hour"></li>
+          <li data-label="minutes"></li>
+          <li data-label="seconds"></li>
+        </ol>
+      </section>
+
+      <h2>Different timers</h2>
+      <h3>!!! Crashes the window !!!</h3>
+      <section>
+        <h3>setInterval</h3>
+        <div class="clock" id="interval"></div>
+        <h3>setTimeout</h3>
+        <div class="clock" id="timeout"></div>
+        <h3>requestAnimationFrame</h3>
+        <div class="clock" id="frame"></div>
+        <h3>CSS</h3>
+        <ol class="clock" id="css">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol>
+      </section>
+    </main>
+  </body>
+  <script src="index.js"></script>
+</html>
